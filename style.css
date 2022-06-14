@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:15px;
+	font-weight:500;
+	min-height: 100vh;
+	padding: 1.5rem;
+	display: grid;
+	place-content: center;
+	background-color: darkcyan;
+	background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+	background-repeat: no-repeat;
+	background-position: right 50vw bottom 50vh,  left 50vw top 50vh;
+}
+  
+
+
+.card {
+	height: 90%;
+	min-width: 20.325rem;
+	background-color: white;
+	border-radius: 1rem;
+	overflow: hidden;
+	box-shadow: 1px 1px 10px 5px rgba(48, 48, 48, 0.2);
+}
+span{
+    color: rgb(128, 128, 128);
+	font-size: .985rem;
+	margin-left: 15px;
+	
+}
+
+.header {
+    
+	min-height: 20vh;
+	background-image: url("/images/bg-pattern-card.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+hr
+{
+	font-size:small ;
+}
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+	font-weight: 500;
+	color: black;
+	margin: 1.5625rem auto 1.0625rem;
+    text-align: center;
+	
+}
+p{
+	color: rgb(128, 128, 128);
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 1.875rem;
+    font-size: .875rem;
+	
+}
+img {
+	border: 0.3125rem solid white;
+	border-radius: 50%;
+	margin-top: -15%;
+	margin-inline: auto;
+    margin-left: 34%;
+
+}
+
+.Followers{
+    margin-top: 20px;
+	text-align: center;
+	padding: 1.875rem 2.5rem ;
+    
+}
+.line {
+	display: flex;
+	justify-content: space-between;
+	
+    
+}
+
+.num{
+	font-size:20px ;
+	font-weight: 500;
+	color: black;
+}
+.follow{
+	font-size:13px ;
+	font-weight: 200;
+	color: black;
+	padding-bottom: 50px;
+}
+
+
+
+@media only screen and (min-width: 50rem) {
+	.card {
+		min-width: 21.875rem;
+	}
+}
